@@ -162,3 +162,18 @@
         rotate: 360deg;
     }
 }
+
+/*** Esercizio 11 ***/
+.ex-11-icon:hover {
+    animation: 4s cubic-bezier(.5,0,0,1) 1 alternate charge-failed;
+}
+
+@keyframes charge-failed {
+    90% {
+        rotate: 270deg;
+    }
+    
+    100% {
+        rotate: 0deg;
+    }
+}
