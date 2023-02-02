@@ -177,3 +177,32 @@
         rotate: 0deg;
     }
 }
+
+/*** Esercizio 12 ***/
+a:hover .ex-12-top-white {
+    animation: 
+            0.5s ease-in-out 2 alternate one-click-top,
+            0.5s ease-in-out 2 alternate one-click-bottom;
+}
+
+@keyframes one-click-top {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+
+a:hover .ex-12-bottom-white {
+    animation: 0.5s ease-in-out 2 alternate one-click-bottom;
+}
+
+@keyframes one-click-bottom {
+    0% {
+        right: 20%;
+    }
+    100% {
+        right: 60%;
+    }
+}
