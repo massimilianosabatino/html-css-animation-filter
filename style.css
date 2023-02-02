@@ -121,9 +121,6 @@
 }
 
 /*** Esercizio 6 ***/
-.ex-6-img {
-    transition: filter 0.2s ease-in;
-}
 .ex-6-img:hover {
     filter: grayscale(1);
 }
