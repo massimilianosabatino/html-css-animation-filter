@@ -149,7 +149,7 @@
 .ex-9-img:hover {
     filter: sepia(80%) brightness(1);
     border-radius: 30px;
-    scale: 0.9;
+    scale: 1.2;
 }
 
 /*** Esercizio 10 ***/
