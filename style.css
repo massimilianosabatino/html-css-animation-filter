@@ -151,3 +151,14 @@
     border-radius: 30px;
     scale: 0.9;
 }
+
+/*** Esercizio 10 ***/
+.ex-10-icon {
+    animation: 3s linear infinite caricamento;
+}
+
+@keyframes caricamento {
+    100% {
+        rotate: 360deg;
+    }
+}
