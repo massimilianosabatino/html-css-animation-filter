@@ -106,3 +106,16 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+/*** Esercizio 5 ***/
+.ex-5-square {
+    transition: scale 0.2s ease-out;
+}
+
+.ex-5-square:hover {
+    scale: 130%;
+}
+
+.ex-5-square:active {
+    scale: 120%;
+}
