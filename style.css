@@ -141,3 +141,13 @@
     filter: saturate(3) hue-rotate(-90deg);
     border-radius: 30px;
 }
+
+/*** Esercizio 9 ***/
+.ex-9-img {
+    transition: filter 0.4s ease-in, border-radius 0.2s linear, scale 0.4s ease-in-out;
+}
+.ex-9-img:hover {
+    filter: sepia(80%) brightness(1);
+    border-radius: 30px;
+    scale: 0.9;
+}
