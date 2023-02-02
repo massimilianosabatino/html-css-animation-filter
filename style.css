@@ -132,3 +132,12 @@
 .ex-7-img:hover {
     filter: grayscale(1) contrast(2);
 }
+
+/*** Esercizio 8 ***/
+.ex-8-img {
+    transition: filter 0.4s ease-in, border-radius 0.2s linear;
+}
+.ex-8-img:hover {
+    filter: saturate(3) hue-rotate(-90deg);
+    border-radius: 30px;
+}
