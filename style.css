@@ -130,5 +130,5 @@
     transition: filter 0.4s ease-in;
 }
 .ex-7-img:hover {
-    filter: grayscale(1);
+    filter: grayscale(1) contrast(2);
 }
