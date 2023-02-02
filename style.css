@@ -181,8 +181,7 @@
 /*** Esercizio 12 ***/
 a:hover .ex-12-top-white {
     animation: 
-            0.5s ease-in-out 2 alternate one-click-top,
-            0.5s ease-in-out 2 alternate one-click-bottom;
+            0.5s ease-in-out 2 alternate one-click-top;
 }
 
 @keyframes one-click-top {
@@ -204,5 +203,78 @@ a:hover .ex-12-bottom-white {
     }
     100% {
         right: 60%;
+    }
+}
+
+/*** Esercizio 13 ***/
+a:hover .ex-13-top-white {
+    animation: 
+            1s ease-in-out 1 two-click-top;
+}
+
+@keyframes two-click-top {
+    0% {
+        top: -10px;
+        left: 10%;
+
+    }
+    17% {
+        top: -10px;
+        left: 98%;
+    }
+    34% {
+        top: 55px;
+        left: 98%;
+    }
+    50% {
+        top: 55px;
+        left: 50%;
+    }
+    67% {
+        top: 55px;
+        left: -30%;
+    }
+    84% {
+        top: -10px;
+        left: -30%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+a:hover .ex-13-bottom-white {
+    animation: 1s ease-in-out 1 two-click-bottom;
+}
+
+@keyframes two-click-bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    17% {
+        right: 98%;
+        bottom: -10px;
+    }
+    34% {
+        right: 98%;
+        bottom: 55px;
+    }
+    50% {
+        right: 60%;
+        bottom: 55px;
+    }
+    67% {
+        right: -30%;
+        bottom: 55px;
+    }
+    84% {
+        right: -30%;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
     }
 }
