@@ -124,3 +124,11 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/*** Esercizio 7 ***/
+.ex-7-img {
+    transition: filter 0.4s ease-in;
+}
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
